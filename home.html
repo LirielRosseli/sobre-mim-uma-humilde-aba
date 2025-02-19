@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>uma humilde aba</title>
+  <meta charset='UTF-8'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+  <link rel='icon' type='image/png' href='https://i.postimg.cc/Wb7Rwtq9/perola.png'>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+<form method='POST'>
+  <img src='https://i.postimg.cc/DyMFdw2p/girl.png' id='girl'/>
+  <div id='ballom'>
+      <p>Oie! Que bom te ver aqui! <br> 
+      Posso te mostrar algumas coisas que me fazem feliz?</p>
+      <div id='mensagens'></div>
+          <div id='bloquinho'>
+      
+              <div id='amarelinho'>
+                <img src='https://i.postimg.cc/m1kwYrCr/botao-amarelo.png' aria-label='Sim' onclick="imprimirMensagem('Sim')"/> 
+                <span class='legenda'>Sim</span>
+              </div>
+
+              <div id='azuzinho'>
+                <img src='https://i.postimg.cc/bG038Wqq/botao-azul.png' aria-label='Não' onclick="imprimirMensagem('Não')"/> 
+                <span class='legenda'>Não</span>
+              </div>
+
+              <div id="gummybear">
+                  <img src="https://i.postimg.cc/9fVvC600/gummybear.png" onclick='tentarNovamente()'>
+                  <span class='legenda'>recomeçar</span>
+              </div>
+          
+           </div>
+   </div>
+</form>
+    <script src="movimentos.js"></script>
+</body>
+</html>

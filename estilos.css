@@ -1,0 +1,98 @@
+body{
+    background-image:url('https://i.pinimg.com/736x/65/2c/6f/652c6f2475bbd266846f2bee359bb928.jpg'); 
+    height: 100vh;}
+    
+  #girl{
+    display: block; 
+    margin: auto;}
+    
+  #ballom{
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    background-color:#EFFBF8; 
+    width: 500px;
+    height: auto; 
+    border-radius: 20px;
+    font-family: 'Dekko';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+  #amarelinho,#azuzinho{
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    transition: 0.7s;
+  }
+  
+  #gummybear{
+    cursor:pointer;
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    transition: 0.7s;
+    margin-left: 5px;
+    visibility: hidden;
+    display: none;
+  }
+  
+  #gummybear img {
+    width: 30px;
+    height: 40px;
+    transition: 0.7s
+  }
+  
+  #amarelinho img:hover, #azuzinho img:hover, #gummybear img:hover{
+    transform: scale(0.8);
+  }
+  
+  #amarelinho img, #azuzinho img{
+    width: 100%;
+    height: auto;
+    transition: 0.7s;
+  }
+  
+  .legenda{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+  #amarelinho:hover .legenda, #azuzinho:hover .legenda, #gummybear:hover .legenda{
+    display:block;
+    visibility: visible;
+    padding: 5px;
+  }
+  
+  .legenda:hover{
+    display: inline-block;
+  }
+  
+  #bloquinho{
+    width: auto;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #fff;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  #mensagens{
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+  }
